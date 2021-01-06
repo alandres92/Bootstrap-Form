@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    
     <title>Bootstrap Form</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,6 +12,7 @@
   </head>
   <!--body-->
   <body>
+    <div style="color: royalblue;">
     <div class="container">
         <h1 style="color: royalblue;">Contact Me</h1>
         <br>
@@ -21,20 +23,20 @@
             <div class="input-group-prepend">
               <span class="input-group-text" id="FirstName">First Name</span>
             </div>
-            <input type="name" class="form-control" placeholder="First Name" aria-label="FirstName" aria-describedby="basic-addon1">
+            <input type="name" class="form-control" placeholder="First Name" aria-label="FirstName" aria-describedby="basic-addon1" name="FirstName" id="FirstName"> <!--add name and id to all input areas-->
         <div class="input-group mb-3">
         </div>
             <div class="input-group-prepend">
               <span class="input-group-text" id="LastName">Last Name</span>
             </div>
-            <input type="name" class="form-control" placeholder="Last Name" aria-label="LastName" aria-describedby="basic-addon1">
+            <input type="name" class="form-control" placeholder="Last Name" aria-label="LastName" aria-describedby="basic-addon1" name="LastName" id="LastName">
           </div>
           <!--persons email-->
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text" id="Email">Email</span>
             </div>
-            <input type="email" class="form-control" placeholder="example@email.com" aria-label="Email" aria-describedby="basic-addon1">
+            <input type="email" class="form-control" placeholder="example@email.com" aria-label="Email" aria-describedby="basic-addon1" name="FirstName" id="FirstName">
           
             <br>
             
@@ -44,18 +46,18 @@
                 <div class="col">
                     <!--subject-->
                     <h5>Subject</h5>
-                    <input type="text" class="form-control" placeholder="Subject" aria-label="Email" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="Subject" aria-label="Email" aria-describedby="basic-addon1" width="100%" name="FirstName" id="FirstName">
                   
                <!--Text Area-->
 
                     <h5>Message</h5>
-                  <textarea id="Message" rows="3" style="margin-top: 0px; margin-bottom: 0px; height: 500px; width: 1050px;"></textarea>
+                  <textarea id="Message" rows="3" style="margin-top: 0px; margin-bottom: 0px; height: 50%; width: 100%;"></textarea>
                  
                   
                 </div>
                 
               </div>  
-          <br>
+          
           
        
        
@@ -64,6 +66,10 @@
         
         <div class="row justify-content-center">
         <input class="btn btn-success" type="submit" value="Submit">
+       
+       
+       
+       
         <!--Trap-->
                  <!-- <a class="btn btn-danger" href="https://youtu.be/dQw4w9WgXcQ" role="button">Do NOT Press</button></a>-->
         </form>  
