@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Bootstrap Form</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,30 +9,32 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
+  <!--body-->
   <body>
     <div class="container">
-        <h1>Contact Me</h1>
+        <h1 style="color: royalblue;">Contact Me</h1>
+        <br>
         <form>
         <!--Input-->
          <!--Persons first/last-->
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">First Name</span>
+              <span class="input-group-text" id="FirstName">First Name</span>
             </div>
-            <input type="text" class="form-control" placeholder="First Name" aria-label="FirstName" aria-describedby="basic-addon1">
+            <input type="name" class="form-control" placeholder="First Name" aria-label="FirstName" aria-describedby="basic-addon1">
         <div class="input-group mb-3">
         </div>
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Last Name</span>
+              <span class="input-group-text" id="LastName">Last Name</span>
             </div>
-            <input type="text" class="form-control" placeholder="Last Name" aria-label="LastName" aria-describedby="basic-addon1">
+            <input type="name" class="form-control" placeholder="Last Name" aria-label="LastName" aria-describedby="basic-addon1">
           </div>
           <!--persons email-->
           <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Email</span>
+              <span class="input-group-text" id="Email">Email</span>
             </div>
-            <input type="text" class="form-control" placeholder="example@email.com" aria-label="Email" aria-describedby="basic-addon1">
+            <input type="email" class="form-control" placeholder="example@email.com" aria-label="Email" aria-describedby="basic-addon1">
           
             <br>
             
@@ -47,7 +49,7 @@
                <!--Text Area-->
 
                     <h5>Message</h5>
-                  <textarea id="textarea" rows="3" style="margin-top: 0px; margin-bottom: 0px; height: 500px; width: 1050px;"></textarea>
+                  <textarea id="Message" rows="3" style="margin-top: 0px; margin-bottom: 0px; height: 500px; width: 1050px;"></textarea>
                  
                   
                 </div>
@@ -56,11 +58,10 @@
           <br>
           
        
-        <!--Anything I need to lay out a UI that acts as contact form-->
        
         
         
-        <!--body-->
+        
         <div class="row justify-content-center">
         <input class="btn btn-success" type="submit" value="Submit">
         <!--Trap-->
